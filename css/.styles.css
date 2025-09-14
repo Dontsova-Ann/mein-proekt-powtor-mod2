@@ -32,8 +32,8 @@ h1, h2, h3, h4, h5, h6, p {
 	font-weight: inherit;
 }
 
-ul, ul li {
-	list-style: none;
+ul, ol, ul li {
+	list-style-type: none;
 }
 
 img {
@@ -90,4 +90,9 @@ legend {
 
 input[type='file'] {
 	max-width: 100%;
+}
+body{
+    font-family: Roboto, sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
